@@ -161,50 +161,45 @@ export default function ValentineLetter() {
 
             {/* Letter Content */}
             <h1 className="text-5xl text-center text-pink-600 mb-10 font-serif italic">
-              To My Dearest Love,
+              To My Love,
             </h1>
 
           <div className="space-y-6 text-lg leading-relaxed text-gray-800 font-serif text-justify">
 
               <p>
-                I hope you read this at a quiet moment, when you can breathe a little. I wanted to write something for you today, something that is for you and about you. Not about us or what we could be, but about the person you are and the person I am slowly getting to know.
+                I hope this reaches you at a moment when your mind is calm and your heart has a little space to rest. I was thinking of you again, and I felt the need to put my thoughts into words. You have a way of slipping into my day so easily. Even the smallest thought of you makes everything feel warmer.
               </p>
 
               <p>
-                You have this way of pushing through things even when they try to weigh you down. I notice it. I notice how strong you try to be, even when things feel too heavy. I notice how you show up for others, how you try to keep going even when you are tired or hurting. It is not easy to do that. It takes a kind of strength that not everyone has. You may not always feel strong, but I see it in you.
+                I like knowing you. I like learning the small things about you, the things you do not always say out loud. You have this quiet charm that pulls me in, and every day I find something new about you that I want to hold close. You have no idea how often I smile because of you.
               </p>
 
               <p>
-                I also want you to know that it is alright to feel tired. It is alright to slow down. It is alright to rest and let yourself breathe without feeling guilty. You deserve moments of calm. You deserve softness. You deserve care. You do not need to carry everything alone.
+                I know life gets heavy for you at times. I know some days feel long and tiring. When you tell me even a bit of what you go through, I feel honored that you trust me with it. You do not have to be strong all the time. You do not have to hide the parts of yourself that feel worn out. I want to be someone who can listen, someone who can make your days softer, even just a little.
               </p>
 
               <p>
-                There are days when I wish I could sit beside you and give you even a small bit of comfort. Not by fixing anything, but simply by being present. I wish I could let you forget the world for a while and just exist without pressure. Maybe one day that will happen. For now, I want you to know that even from far away, I am someone who wants the best for you. Someone who cares about your well-being, your peace, your small joys, and your quiet moments.
+                If I could sit beside you right now, I would. I would hold you for a moment and let you rest your mind. I would trace my fingers along your arm, slow and gentle, until you feel the world ease up. I would let you lean into me and forget the noise around you. One day I hope I get to do that for real. Until then, I am here in the ways I can be.
               </p>
 
               <p>
-                When you share pieces of your day with me, even the simple ones, I feel grateful. It means a lot to be trusted with even a small part of your life. You do not have to be perfect with me. You do not have to pretend to be fine when you are not. You do not have to hide the hard parts of your days. You are allowed to be human with me.
+                I love it when you share pieces of your day with me. It makes me feel connected to your world. It makes me feel like I am not far from you at all. You do not have to pretend with me. I want you real. I want you as you are, with your tired moments, your unfiltered thoughts, your soft parts, and your quiet hopes.
               </p>
 
               <p>
-                I am glad our paths crossed. I am glad I get to know you little by little. I like you, and I like the person you are becoming. I know you do your best, even when it feels like it is not enough. I know you carry more than you show. I know you keep moving forward even when your days are long and your nights are heavy. I hope you give yourself the same patience that you give to others.
+                You are someone I am truly glad to have met. You are someone who makes my days brighter without even trying. And the more I get to know you, the more I want to be close to you, in every sense of the word.
               </p>
 
-              <p> You deserve gentleness, not only from other people but also from yourself. </p>
-              <p> You deserve rest.</p>
-              <p> You deserve healing.</p>
-              <p> You deserve days that feel light.</p>
-
-              <p>
-                I want this small corner of the world, this little letter, to be something that feels soft for you. Something that reminds you that it is alright to slow down. Something that tells you that someone out there cares about your peace and hopes you find comfort, even if just for a moment.
+              <p> 
+                You deserve care. You deserve peace. You deserve to be held with warmth and patience. I hope you let yourself feel those things, from me and from the world around you.
               </p>
 
               <p>
-                Thank you for letting me be here in some part of your life.
+                Thank you for being part of my days. Thank you for letting me into your life in the way you do.
               </p>
 
               <p>
-                Thank you for being you.
+                Every quiet moment I have, it is you I end up thinking about.
               </p>
 
               <p>
@@ -214,11 +209,23 @@ export default function ValentineLetter() {
               <div className="text-right italic mt-12">
                 <p>Yours,</p>
                 <p className="font-bold mt-2">Stelle</p>
-                <p>
-                  <br></br>
-                  <br></br>
-                </p>
               </div>
+              <p>
+                <br></br>
+              </p>
+
+              <p>
+                P.S. You make it very hard to behave. And I am not sure I want to behave around you anyway.
+              </p>
+
+              <p>
+                P.P.S. I hope you sleep well tonight, but if your mind wanders to me, let it. Mine is already wandering to you.
+              </p>
+
+              <p>
+                <br></br>
+                <br></br>
+              </p>
             </div>
           </div>
         </div>
