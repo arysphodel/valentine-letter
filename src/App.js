@@ -158,15 +158,6 @@ export default function ValentineLetter() {
  bg-pink-100 border-4 border-white rounded-2xl shadow-xl flex items-center justify-center transform -rotate-12 hover:scale-110 transition-transform">
               <img src="/cat4.jpg" alt="Cat 4" className="w-full h-full object-cover rounded-xl" />
             </div>
-            <div className="absolute top-1/2 -left-20 md:-left-36
- w-28 h-28 md:w-48 md:h-48
- bg-pink-100 border-4 border-white rounded-2xl shadow-xl flex items-center justify-center transform -translate-y-1/2 -rotate-6 hover:scale-110 transition-transform">
-              <img src="/cat5.jpg" alt="Cat 5" className="w-full h-full object-cover rounded-xl" />
-            </div>
-            <div className="absolute top-1/2 -right-20 md:-right-36
- w-28 h-28 md:w-48 md:h-48 bg-pink-100 border-4 border-white rounded-2xl shadow-xl flex items-center justify-center transform -translate-y-1/2 rotate-12 hover:scale-110 transition-transform">
-              <img src="/cat6.jpg" alt="Cat 6" className="w-full h-full object-cover rounded-xl" />
-            </div>
 
             {/* Letter Content */}
             <h1 className="text-5xl text-center text-pink-600 mb-10 font-serif italic">
