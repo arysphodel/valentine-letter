@@ -45,15 +45,35 @@ export default function ValentineLetter() {
           videoEnded ? 'opacity-0 pointer-events-none' : 'opacity-100'
         }`}
       >
-        <video
-          className="max-w-full max-h-full"
-          controls
-          autoPlay
-          onEnded={handleVideoEnd}
-        >
-          <source src="/video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <div className="relative max-w-3xl w-full mx-4">
+          {/* Decorative border frame */}
+          <div className="relative p-6 bg-gradient-to-br from-pink-200 via-pink-300 to-rose-300 rounded-3xl shadow-2xl">
+            {/* Inner frame */}
+            <div className="relative p-4 bg-white rounded-2xl shadow-inner">
+              {/* Corner decorations */}
+              <div className="absolute -top-3 -left-3 text-3xl">🌸</div>
+              <div className="absolute -top-3 -right-3 text-3xl">💕</div>
+              <div className="absolute -bottom-3 -left-3 text-3xl">💖</div>
+              <div className="absolute -bottom-3 -right-3 text-3xl">🌸</div>
+              
+              {/* Video with rounded corners */}
+              <video
+                className="w-full h-auto rounded-xl shadow-lg"
+                controls
+                autoPlay
+                onEnded={handleVideoEnd}
+              >
+                <source src="/video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            
+            {/* Side decorations */}
+            <div className="absolute top-1/4 -left-4 text-2xl animate-pulse">💝</div>
+            <div className="absolute top-1/2 -right-4 text-2xl animate-pulse">💗</div>
+            <div className="absolute top-3/4 -left-4 text-2xl animate-pulse">💓</div>
+          </div>
+        </div>
       </div>
 
       {/* Envelope Container */}
@@ -138,24 +158,16 @@ export default function ValentineLetter() {
         <div className="max-w-4xl mx-auto px-5 py-10">
           <div className="bg-white rounded-xl shadow-2xl p-20 relative overflow-visible border-4 border-pink-200">
             {/* Cat Stickers - Bigger and prettier */}
-            <div className="absolute -top-10 -left-10 md:-top-14 md:-left-20
- w-28 h-28 md:w-48 md:h-48
- bg-pink-100 border-4 border-white rounded-2xl shadow-xl flex items-center justify-center transform -rotate-12 hover:scale-110 transition-transform">
+            <div className="absolute -top-10 -left-10 md:-top-14 md:-left-20 w-28 h-28 md:w-48 md:h-48 bg-pink-100 border-4 border-white rounded-2xl shadow-xl flex items-center justify-center transform -rotate-12 hover:scale-110 transition-transform">
               <img src="/cat1.jpg" alt="Cat 1" className="w-full h-full object-cover rounded-xl" />
             </div>
-            <div className="absolute -top-10 -right-10 md:-top-14 md:-right-20
- w-28 h-28 md:w-48 md:h-48
- bg-pink-100 border-4 border-white rounded-2xl shadow-xl flex items-center justify-center transform rotate-12 hover:scale-110 transition-transform">
+            <div className="absolute -top-10 -right-10 md:-top-14 md:-right-20 w-28 h-28 md:w-48 md:h-48 bg-pink-100 border-4 border-white rounded-2xl shadow-xl flex items-center justify-center transform rotate-12 hover:scale-110 transition-transform">
               <img src="/cat2.jpg" alt="Cat 2" className="w-full h-full object-cover rounded-xl" />
             </div>
-            <div className="absolute -bottom-10 -left-10 md:-bottom-16 md:-left-20
- w-28 h-28 md:w-48 md:h-48
- bg-pink-100 border-4 border-white rounded-2xl shadow-xl flex items-center justify-center transform rotate-6 hover:scale-110 transition-transform">
+            <div className="absolute -bottom-10 -left-10 md:-bottom-16 md:-left-20 w-28 h-28 md:w-48 md:h-48 bg-pink-100 border-4 border-white rounded-2xl shadow-xl flex items-center justify-center transform rotate-6 hover:scale-110 transition-transform">
               <img src="/cat3.jpg" alt="Cat 3" className="w-full h-full object-cover rounded-xl" />
             </div>
-            <div className="absolute -bottom-10 -right-10 md:-bottom-16 md:-right-20
- w-28 h-28 md:w-48 md:h-48
- bg-pink-100 border-4 border-white rounded-2xl shadow-xl flex items-center justify-center transform -rotate-12 hover:scale-110 transition-transform">
+            <div className="absolute -bottom-10 -right-10 md:-bottom-16 md:-right-20 w-28 h-28 md:w-48 md:h-48 bg-pink-100 border-4 border-white rounded-2xl shadow-xl flex items-center justify-center transform -rotate-12 hover:scale-110 transition-transform">
               <img src="/cat4.jpg" alt="Cat 4" className="w-full h-full object-cover rounded-xl" />
             </div>
 
@@ -164,8 +176,7 @@ export default function ValentineLetter() {
               To My Love,
             </h1>
 
-          <div className="space-y-6 text-lg leading-relaxed text-gray-800 font-serif text-justify">
-
+            <div className="space-y-6 text-lg leading-relaxed text-gray-800 font-serif text-justify">
               <p>
                 I hope this reaches you at a moment when your mind is calm and your heart has a little space to rest. I was thinking of you again, and I felt the need to put my thoughts into words. You have a way of slipping into my day so easily. Even the smallest thought of you makes everything feel warmer.
               </p>
@@ -215,11 +226,7 @@ export default function ValentineLetter() {
               </p>
 
               <p>
-                P.S. You make it very hard to behave. And I am not sure I want to behave around you anyway.
-              </p>
-
-              <p>
-                P.P.S. I hope you sleep well tonight, but if your mind wanders to me, let it. Mine is already wandering to you.
+                P.S. I hope you sleep well tonight, but if your mind wanders to me, let it. Mine is already wandering to you.
               </p>
 
               <p>
