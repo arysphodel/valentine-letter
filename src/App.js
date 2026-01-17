@@ -212,7 +212,7 @@ export default function ValentineLetter() {
               </p>
 
               <div className="text-right italic mt-12">
-                <p>Forever yours,</p>
+                <p>Yours,</p>
                 <p className="font-bold mt-2">Stelle</p>
                 <p>
                   <br></br>
